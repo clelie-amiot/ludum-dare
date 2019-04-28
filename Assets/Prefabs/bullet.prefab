@@ -131,8 +131,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b5d74c7b3776c94c8f86a9481b8c8c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 100
+  speed: 1000
   rb: {fileID: 50000010992804616}
-  firePoint: {fileID: 7156864614358087478, guid: 7beaeb7e1bba672488f52b524579458e,
-    type: 3}
-  character: {fileID: 1000014273855158, guid: e3ce44ff6eedd464a85bcb1bc0bec8ba, type: 3}
