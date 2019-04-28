@@ -104,9 +104,7 @@ namespace UnityStandardAssets._2D
         {
             // Switch the way the player is labelled as facing.
             m_FacingRight = !m_FacingRight;
-			Vector3 theScale = transform.localScale;
-			theScale.x *= -1;
-			transform.localScale = theScale;
+            transform.Rotate(0f, 180f, 0f);
         }
     }
 }
