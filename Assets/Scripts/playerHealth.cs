@@ -12,12 +12,12 @@ public class playerHealth : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        currentHealth = startingHealth;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        healthSlider.value = currentHealth;
     }
 }
