@@ -1,11 +1,11 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{6E8BB984-371F-E70F-72B2-9A32829E1C3F}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{E82837FE-C9B1-8A6A-654A-C2E4C1DDEE9B}") = "Ludum_Dare_2019", "Assembly-CSharp-firstpass.csproj", "{6E8BB984-371F-E70F-72B2-9A32829E1C3F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{16230EA0-B5BD-665A-C93F-E519D3DE7F44}"
+Project("{E82837FE-C9B1-8A6A-654A-C2E4C1DDEE9B}") = "Ludum_Dare_2019", "Assembly-CSharp.csproj", "{16230EA0-B5BD-665A-C93F-E519D3DE7F44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{BDBAB91F-3339-7ED7-2F06-C8D692EF833C}"
+Project("{E82837FE-C9B1-8A6A-654A-C2E4C1DDEE9B}") = "Ludum_Dare_2019", "Assembly-CSharp-Editor.csproj", "{BDBAB91F-3339-7ED7-2F06-C8D692EF833C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,5 +28,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
