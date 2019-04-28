@@ -5,16 +5,15 @@ public class bullet : MonoBehaviour {
 
 	public float speed = 100f;
 	public Rigidbody2D rb;
-	public Transform firePoint;
 
-	// Use this for initialization
-	void Start () {
-		rb.velocity = firePoint.right * speed * Time.deltaTime;	
+    // Use this for initialization
+    void Start () {
+		rb.velocity = rb.transform.right * speed * Time.deltaTime;
 	}
 
 	void OnTriggerEnter2D(Collider2D hitInfo) {
 		Debug.Log (hitInfo.name);
-		// Destroy (gameObject);
+		Destroy (gameObject);
 	}
 
 }

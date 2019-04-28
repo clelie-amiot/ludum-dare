@@ -135,3 +135,4 @@ MonoBehaviour:
   rb: {fileID: 50000010992804616}
   firePoint: {fileID: 7156864614358087478, guid: 7beaeb7e1bba672488f52b524579458e,
     type: 3}
+  character: {fileID: 1000014273855158, guid: e3ce44ff6eedd464a85bcb1bc0bec8ba, type: 3}
